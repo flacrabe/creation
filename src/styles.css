@@ -1,5 +1,5 @@
 a, a:visited {
-    color: rgb(22, 107, 122);
+    color: rgb(0, 0, 0);
     text-decoration : none;
 }
 a:hover {
@@ -16,11 +16,6 @@ a:hover {
    .ArticlesTitre{
        font-size: 3em;
        text-align: center;
-   }
-   .news {
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
    }
    .news a, .news a:visited, .news a:hover {
        color: black;
