@@ -12,6 +12,16 @@ a:hover {
 .rounded{
     border-radius: 15%;
 }
+.headerBleu {
+    background-color: rgb(44, 118, 187);
+}
+.logoImg{
+    height: 150px;
+    width: auto;
+     display: block;
+      margin-left: auto;
+    margin-right: auto;
+}
    /* news */
    .ArticlesTitre{
        font-size: 3em;
@@ -31,34 +41,6 @@ a:hover {
        padding-bottom: 10px;
        border-radius: 10%;
    }
-
-/* blog */
-.blogBbcue {
-    width: 100px;
-    border-radius: 30%;
-}
-.media {
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
-    padding: 25px;
-    border-radius: 30px;
-   }
-
-   /* qui suis je */
-   .FredLac {
-       font-weight: 900;
-       font-size: 50px;
-       color: white;
-       -webkit-text-stroke: 1px black;
-       font-family:'Calibri',  'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-   }
-   .presentation {
-font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-   font-weight: 900;
-   font-size:xx-large;
-   color: white;
-   -webkit-text-stroke: 1px black;
-    }
-
    /* fiches produits */
    *{
     -webkit-box-sizing: border-box;

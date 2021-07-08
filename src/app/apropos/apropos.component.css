@@ -2,5 +2,36 @@
     background-image: url(../../assets/fred.JPG);
     background-position: center;
     background-size: cover;
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+   }
+   .FredLac {
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-family:'Calibri',  'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+    .presentation {
+    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size:xx-large;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    }
+
+   @media  (max-width : 800px)  {
+       .fred{
+           background-image: none;
+           }
+           .FredLac {
+            color: rgb(0, 0, 0);
+            font-size:x-large;
+            -webkit-text-stroke: none;
+            font-family:'Calibri',  'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        }
+        .presentation {
+     font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: large;
+        -webkit-text-stroke: none;
+         }
    }
